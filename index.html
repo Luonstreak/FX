@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>FX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+  <link rel="stylesheet" href="./main.css">
+  <!-- font roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img id="fxLogo" src="./static/fx_logo_white.png" alt="fx logo">
+    </header>
+    <section>
+      <h2>Congratulations to all our winners and nominees. For more on our fearless original series, please visit
+      <a href="https://www.fxnetworks.com/shows">fxnetworks.com/shows</a></h2>
+    </section>
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./static/FX_AFINoms_970x250_1.jpg" alt="slide 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="./static/FX_CriticsChoiceNoms_970x250_3.jpg" alt="slide 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="./static/FX_GGNoms_970x250_4.jpg" alt="slide 3">
+        </div>
+        <div class="swiper-slide">
+          <img src="./static/FX_SAGNoms_970x250_4.jpg" alt="slide 4">
+        </div>
+        <div class="swiper-slide">
+          <img src="./static/FX_WGANoms_970x250_1.jpg" alt="slide 5">
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <br>
+      <br>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <p>TM &amp; &copy;2018 FX Networks, LLC. All Rights Reserved. Use of this website (including any and all parts and components)
+      constitutes your acceptance of these Terms of Use and Privacy Policy.</p>
+    </div>
+    <div>
+      <h3>GET THE FXNOW APP</h3>
+      <h5>Watch the full episodes and movies on demand from anywhere</h5>
+      <hr>
+      <div class="links">
+        <ul>
+          <li><a target='blank' href="https://www.fxnetworks.com/settings/channel-lookup">Find Your Channel</a></li> 
+          <li><a target='blank' href="http://www.foxcareers.com/">Jobs</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/terms-of-use">Terms of Use</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/closed-captioning">Closed Captioning</a></li> 
+        </ul>
+        <ul>
+          <li><a target='blank' href="https://www.fxnetworks.com/settings/parental-controls/ratings-guide">TV Rating Guide</a></li> 
+          <li><a target='blank' href="http://www.controlyourtv.org/">TV Control</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/settings/eula">EULA</a></li> 
+          <li><a target='blank' href="http://form.jotformpro.com/form/42386744094967">Contact Us</a></li> 
+        </ul>
+        <ul>
+          <li><a target='blank' href="https://www.foxflash.com/div.php/main/page">Press</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/privacy-policy">Privacy Policy</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/privacy-policy#advertising-choices">Advertising Choices</a></li> 
+          <li><a target='blank' href="https://www.fxnetworks.com/settings/parental-controls/ratings-guide">TVMA</a></li> 
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- import SWIPER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+  <!-- load SWIPER -->
+  <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      autoplay: true, 
+      speed: 500,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        hideOnClick: false
+      },
+    });
+  </script>
+</body>
+</html>
